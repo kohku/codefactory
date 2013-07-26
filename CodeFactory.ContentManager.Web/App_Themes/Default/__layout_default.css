@@ -1,0 +1,21 @@
+﻿div#__layout.default div#__header
+{
+    display: block;
+    float: none; 
+    width: 955px;
+}
+
+div#__layout.default div#__main
+{
+    display: block; 
+    float: none; 
+    width: 955px;
+}
+
+div#__layout.default div#__footer
+{
+    display: block; 
+    float: none; 
+    width: 955px;
+}
+

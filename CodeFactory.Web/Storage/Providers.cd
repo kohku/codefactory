@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CodeFactory.Web.Storage.LinqUploadStorageProvider">
+    <Position X="3" Y="4" Width="2.25" />
+    <Members>
+      <Field Name="_connectionStringName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgBAAAAAAAAQAAAAAABAAAAAAIAABAAAEAAAgAAAA=</HashCode>
+      <FileName>Storage\LinqUploadStorageProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeFactory.Web.Storage.UploadStorageProvider">
+    <Position X="1.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="_applicationName" Hidden="true" />
+      <Field Name="_compressContentType" Hidden="true" />
+      <Field Name="_contentTypeAllowed" Hidden="true" />
+      <Field Name="_maxFileSize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAABBIAAAAEAQABAUIABAAAAAAAAABAAAUAAAgBAAA=</HashCode>
+      <FileName>Storage\UploadStorageProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeFactory.Web.Storage.XmlUploadStorageProvider">
+    <Position X="0.5" Y="4" Width="2" />
+    <Members>
+      <Field Name="_dataStorePath" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAAAAQAAAAAABCAAAAAAAABAAAGAQAgAAAA=</HashCode>
+      <FileName>Storage\XmlUploadStorageProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeFactory.Web.Storage.UploadStorageService">
+    <Position X="6" Y="0.5" Width="2.5" />
+    <Members>
+      <Field Name="_defaultProvider" Hidden="true" />
+      <Field Name="_settings" Hidden="true" />
+      <Field Name="_uploadStorageProviders" Hidden="true" />
+      <Field Name="syncRoot" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAABAIAAAAEAAAQgAAARAAAAAAAAABAgAEAAAgAEAA=</HashCode>
+      <FileName>Storage\UploadStorageService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

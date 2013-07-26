@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="389b0c30-8236-4403-ae7c-3d36d04cfe3f" name="Dan@HAL9000 2010-09-21 15:55:28" runUser="HAL9000\Dan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="02cef4a3-20cf-43dc-8d79-7916465e7753">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\TestResults\Dan_HAL9000 2010-09-21 15_55_28">
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\com.flajaxian.FileUploader.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\Debug\CodeFactory.ContentManager.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Web\bin\Debug\CodeFactory.Web.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess.Transactions\bin\Debug\CodeFactory.DataAccess.Transactions.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\bin\Debug\CodeFactory.Utilities.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess\bin\Debug\CodeFactory.DataAccess.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HAL9000" outcome="Error" timestamp="2010-09-21T15:57:06.3815627-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-09-21T15:55:28.7049759-05:00" queuing="2010-09-21T15:55:30.1690597-05:00" start="2010-09-21T15:55:30.4440754-05:00" finish="2010-09-21T15:57:06.3815627-05:00" />
+  <TestDefinitions>
+    <UnitTest name="CRUDPageTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="9567f949-1066-318c-2879-9c86b79d033d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4fe09689-0168-4d64-a932-e0747b9096a8" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="CRUDPageTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9567f949-1066-318c-2879-9c86b79d033d" executionId="49052863-2229-44b8-bcde-f7d3fe6acf9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="49052863-2229-44b8-bcde-f7d3fe6acf9e" testId="9567f949-1066-318c-2879-9c86b79d033d" testName="CRUDPageTest" computerName="HAL9000" duration="00:01:35.7304755" startTime="2010-09-21T15:55:30.6510872-05:00" endTime="2010-09-21T15:57:06.3815627-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

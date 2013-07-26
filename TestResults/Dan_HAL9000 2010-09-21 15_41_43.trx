@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee0319b1-a729-4510-ace5-9b6cf52dc4ae" name="Dan@HAL9000 2010-09-21 15:41:43" runUser="HAL9000\Dan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="02cef4a3-20cf-43dc-8d79-7916465e7753">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\TestResults\Dan_HAL9000 2010-09-21 15_41_43">
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\com.flajaxian.FileUploader.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\Debug\CodeFactory.ContentManager.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Web\bin\Debug\CodeFactory.Web.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess.Transactions\bin\Debug\CodeFactory.DataAccess.Transactions.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\bin\Debug\CodeFactory.Utilities.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess\bin\Debug\CodeFactory.DataAccess.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="0" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="1" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-09-21T15:41:43.1477568-05:00" queuing="2010-09-21T15:41:43.9958053-05:00" start="2010-09-21T15:41:44.4758327-05:00" finish="2010-09-21T15:41:51.7542490-05:00" />
+  <TestDefinitions>
+    <UnitTest name="GetPageBySlugTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="daf21cdf-2ebb-f708-6853-a4d029320595">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c95e145a-ba3b-41f0-9841-57028cd7e8c0" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPageBySlugTest" />
+    </UnitTest>
+    <UnitTest name="GetPagesTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="02a323d6-56a8-e503-6c8b-652413a37be8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="255adfd2-296d-44c3-bc94-60821cccfa9c" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPagesTest" />
+    </UnitTest>
+    <UnitTest name="GetPageTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="a76a9fb4-c043-218f-1f5f-628f3daa68e8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="dd0096d4-f5bd-4e3f-8295-b80ab2a67b85" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPageTest" />
+    </UnitTest>
+    <UnitTest name="CRUDPageTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="9567f949-1066-318c-2879-9c86b79d033d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4fe09689-0168-4d64-a932-e0747b9096a8" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="CRUDPageTest" />
+    </UnitTest>
+    <LoadTest Name="LoadTest1" Description="" Owner="" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\loadtest1.loadtest" Priority="0" Enabled="true" CssProjectStructure="" CssIteration="" DeploymentItemsEditable="" WorkItemIds="" TraceLevel="None" CurrentRunConfig="Run Settings1" LoadTestPluginClass="" Id="00eeb76d-2e2a-4f34-83a5-3ca0ea08ed1b">
+      <Scenarios>
+        <Scenario Name="Scenario1" DelayBetweenIterations="0" PercentNewUsers="0" IPSwitching="true" TestMixType="PercentageOfUsersRunning">
+          <ThinkProfile Value="0.2" Pattern="NormalDistribution" />
+          <LoadProfile Pattern="Constant" InitialUsers="25" />
+          <TestMix>
+            <TestProfile Name="CRUDPageTest" Path="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" Id="9567f949-1066-318c-2879-9c86b79d033d" Percentage="100" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="GetChildPagesTest" Path="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" Id="82901c3a-4ecb-81ce-02fd-623b09674825" Percentage="0" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="GetPageBySlugTest" Path="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" Id="daf21cdf-2ebb-f708-6853-a4d029320595" Percentage="0" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="GetPagesTest" Path="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" Id="02a323d6-56a8-e503-6c8b-652413a37be8" Percentage="0" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+            <TestProfile Name="GetPageTest" Path="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" Id="a76a9fb4-c043-218f-1f5f-628f3daa68e8" Percentage="0" Type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+          </TestMix>
+        </Scenario>
+      </Scenarios>
+      <CounterSets>
+        <CounterSet Name="LoadTest" CounterSetType="LoadTest">
+          <CounterCategories>
+            <CounterCategory Name="LoadTest:Scenario">
+              <Counters>
+                <Counter Name="User Load" />
+                <Counter Name="Tests Running" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Test">
+              <Counters>
+                <Counter Name="Total Tests" />
+                <Counter Name="Passed Tests" />
+                <Counter Name="Failed Tests" />
+                <Counter Name="Tests/Sec" />
+                <Counter Name="Passed Tests/Sec" />
+                <Counter Name="Failed Tests/Sec" />
+                <Counter Name="Avg. Requests/Test" />
+                <Counter Name="Avg. Test Time" />
+                <Counter Name="% Time in LoadTestPlugin" />
+                <Counter Name="% Time in WebTest code" />
+                <Counter Name="% Time in Rules" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Transaction">
+              <Counters>
+                <Counter Name="Total Transactions" />
+                <Counter Name="Avg. Transaction Time" />
+                <Counter Name="Avg. Response Time" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Errors">
+              <Counters>
+                <Counter Name="Http Errors" />
+                <Counter Name="Validation Rule Errors" />
+                <Counter Name="Extraction Rule Errors" />
+                <Counter Name="Requests Timed Out" />
+                <Counter Name="Exceptions" />
+                <Counter Name="Errors/Sec" />
+                <Counter Name="Threshold Violations/Sec" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Page">
+              <Counters>
+                <Counter Name="Total Pages" />
+                <Counter Name="Avg. Page Time" />
+                <Counter Name="Page Response Time Goal" />
+                <Counter Name="% Pages Meeting Goal" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="LoadTest:Request">
+              <Counters>
+                <Counter Name="Total Requests" />
+                <Counter Name="Passed Requests" />
+                <Counter Name="Failed Requests" />
+                <Counter Name="Cached Requests" />
+                <Counter Name="Requests/Sec" />
+                <Counter Name="Passed Requests/Sec" />
+                <Counter Name="Failed Requests/Sec" />
+                <Counter Name="Avg. First Byte Time" />
+                <Counter Name="Avg. Response Time" />
+                <Counter Name="Avg. Connection Wait Time">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareCounters, Microsoft.VisualStudio.QualityTools.LoadTest, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                      <RuleParameters>
+                        <RuleParameter Name="DependentCategory" Value="LoadTest:Page" />
+                        <RuleParameter Name="DependentCounter" Value="Avg. Page Time" />
+                        <RuleParameter Name="DependentInstance" Value="_Total" />
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="0.25" />
+                        <RuleParameter Name="CriticalThreshold" Value="0.5" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Avg. Content Length" />
+              </Counters>
+            </CounterCategory>
+          </CounterCategories>
+        </CounterSet>
+        <CounterSet Name="Controller" CounterSetType="Controller">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="% Committed Bytes In Use" />
+                <Counter Name="Available MBytes" />
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" />
+                <Counter Name="Pool Nonpaged bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" />
+                <Counter Name="Bytes Sent/sec" />
+                <Counter Name="Output Queue Length" />
+                <Counter Name="Packets Received/sec" />
+                <Counter Name="Packets Sent/sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" />
+                <Counter Name="% Privileged Time" />
+                <Counter Name="% User Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" />
+                <Counter Name="Virtual Bytes" />
+                <Counter Name="Working Set" />
+              </Counters>
+              <Instances>
+                <Instance Name="QTController" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time" />
+                <Counter Name="% Privileged Time" />
+                <Counter Name="% User Time" />
+              </Counters>
+              <Instances>
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+        <CounterSet Name="Agent" CounterSetType="Agent">
+          <CounterCategories>
+            <CounterCategory Name="Memory">
+              <Counters>
+                <Counter Name="Available MBytes">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="False" />
+                        <RuleParameter Name="WarningThreshold" Value="25" />
+                        <RuleParameter Name="CriticalThreshold" Value="5" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="Page Faults/sec" />
+                <Counter Name="Pages/sec" />
+                <Counter Name="Pool Paged Bytes" />
+                <Counter Name="Pool Nonpaged bytes" />
+              </Counters>
+            </CounterCategory>
+            <CounterCategory Name="Network Interface">
+              <Counters>
+                <Counter Name="Bytes Received/sec" />
+                <Counter Name="Bytes Sent/sec" />
+                <Counter Name="Output Queue Length" />
+                <Counter Name="Packets Received/sec" />
+                <Counter Name="Packets Sent/sec" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="PhysicalDisk">
+              <Counters>
+                <Counter Name="% Disk Read Time" />
+                <Counter Name="% Disk Write Time" />
+                <Counter Name="% Idle Time" />
+                <Counter Name="Current Disk Queue Length" />
+              </Counters>
+              <Instances>
+                <Instance Name="*" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Process">
+              <Counters>
+                <Counter Name="% Processor Time" />
+                <Counter Name="% Privileged Time" />
+                <Counter Name="% User Time" />
+                <Counter Name="Handle Count" />
+                <Counter Name="Thread Count" />
+                <Counter Name="Private Bytes" />
+                <Counter Name="Virtual Bytes" />
+                <Counter Name="Working Set" />
+              </Counters>
+              <Instances>
+                <Instance Name="devenv" />
+                <Instance Name="VSTestHost" />
+                <Instance Name="QTAgentService" />
+                <Instance Name="QTAgent" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="Processor">
+              <Counters>
+                <Counter Name="% Processor Time">
+                  <ThresholdRules>
+                    <ThresholdRule Classname="Microsoft.VisualStudio.TestTools.WebStress.Rules.ThresholdRuleCompareConstant, Microsoft.VisualStudio.QualityTools.LoadTest">
+                      <RuleParameters>
+                        <RuleParameter Name="AlertIfOver" Value="True" />
+                        <RuleParameter Name="WarningThreshold" Value="90" />
+                        <RuleParameter Name="CriticalThreshold" Value="95" />
+                      </RuleParameters>
+                    </ThresholdRule>
+                  </ThresholdRules>
+                </Counter>
+                <Counter Name="% Privileged Time" />
+                <Counter Name="% User Time" />
+              </Counters>
+              <Instances>
+                <Instance Name="_Total" />
+              </Instances>
+            </CounterCategory>
+            <CounterCategory Name="System">
+              <Counters>
+                <Counter Name="Context Switches/sec" />
+                <Counter Name="Processes" />
+                <Counter Name="Processor Queue Length" />
+                <Counter Name="Threads" />
+              </Counters>
+            </CounterCategory>
+          </CounterCategories>
+          <DefaultCountersForAutomaticGraphs>
+            <DefaultCounter CategoryName="Processor" CounterName="% Processor Time" InstanceName="_Total" GraphName="" />
+            <DefaultCounter CategoryName="Memory" CounterName="Available MBytes" InstanceName="" GraphName="" />
+          </DefaultCountersForAutomaticGraphs>
+        </CounterSet>
+      </CounterSets>
+      <RunConfigurations>
+        <RunConfiguration Name="Run Settings1" Description="" ResultsStoreType="Database" TimingDetailsStorage="None" MaxErrorDetails="100" MaxRequestUrlsReported="1000" UseTestIterations="true" RunDuration="600" WarmupTime="0" CoolDownTime="0" TestIterations="100" WebTestConnectionModel="ConnectionPerUser" WebTestConnectionPoolSize="50" SampleRate="5" ValidationLevel="Low" SqlTracingConnectString="" SqlTracingConnectStringDisplayValue="" SqlTracingDirectory="" SqlTracingEnabled="false" SqlTracingMinimumDuration="500" RunUnitTestsInAppDomain="true">
+          <CounterSetMappings>
+            <CounterSetMapping ComputerName="[CONTROLLER MACHINE]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="LoadTest" />
+                <CounterSetReference CounterSetName="Controller" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+            <CounterSetMapping ComputerName="[AGENT MACHINES]">
+              <CounterSetReferences>
+                <CounterSetReference CounterSetName="Agent" />
+              </CounterSetReferences>
+            </CounterSetMapping>
+          </CounterSetMappings>
+        </RunConfiguration>
+      </RunConfigurations>
+    </LoadTest>
+    <UnitTest name="GetChildPagesTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="82901c3a-4ecb-81ce-02fd-623b09674825">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="11397ab0-9e4a-4a2d-b664-c11e8f22d1c5" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetChildPagesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="00eeb76d-2e2a-4f34-83a5-3ca0ea08ed1b" executionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="9567f949-1066-318c-2879-9c86b79d033d" executionId="92e5e4bb-2ff3-42d1-9bd6-c057c01f99c7" parentExecutionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="82901c3a-4ecb-81ce-02fd-623b09674825" executionId="013c5822-d029-4189-bb9c-9d3d8e9a5f50" parentExecutionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="daf21cdf-2ebb-f708-6853-a4d029320595" executionId="29f95fe6-df48-45f4-8f40-96bc0af8c63c" parentExecutionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="02a323d6-56a8-e503-6c8b-652413a37be8" executionId="b1f1e246-c543-4e26-98a0-f209b11be1e4" parentExecutionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="a76a9fb4-c043-218f-1f5f-628f3daa68e8" executionId="fb54fa89-c87a-49d0-a2a1-d914e4cfb307" parentExecutionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <LoadTestResult executionId="44c24576-4729-4b7b-af1f-0fb5f19dec88" testId="00eeb76d-2e2a-4f34-83a5-3ca0ea08ed1b" testName="LoadTest1" computerName="HAL9000" duration="00:00:02.8671640" startTime="2010-09-21T15:41:48.3760558-05:00" endTime="2010-09-21T15:41:51.2432198-05:00" testType="fa4c85ff-1236-4463-b954-3ba2f0eabd95" outcome="Completed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" runId="17" controllerStartTime="2010-09-21T15:41:48.3760558-05:00" runStatus="Stopped" resultsStoreType="Database" resultsRepositoryConnectString="LAs4ogoKlDegwe/B2ErTMJzLDCwfrWcTs4azDfxdfTV4x155Cqq4FyojmPl+ECHYQHSZGQc6wYGZRWgw4uJsGg/JVeOPrcXmje7nK6rL5ors9PNX2y1iyA==" loadTestDuration="600" loadTestWarmupTime="0" previouslyViewed="true">
+      <AnalyzerViewState>
+        <LoadTestRunDescriptor isLegendPanelVisible="true" isOverviewPanelVisible="true" isCounterPanelVisible="true" scrollingGraph="false" minMaxGraph="false" showHorizontalGridOnGraph="true" showThresholdsOnGraph="true" showComparison="false" showZoom="true" lockZoom="true" activeConsoleView="Graph" selectedGraphPanel1="Key Indicators" selectedGraphPanel2="Test Response Time" selectedGraphPanel3="System under Test" selectedGraphPanel4="Controller and Agents" graphPanelLayout="FourGrid" tablePanelLayout="TwoHorizontal" selectedTablePanel1="Tests" selectedTablePanel2="Errors" selectedTablePanel3="Thresholds" selectedTablePanel4="Transactions" controllerName="HAL9000" isLocalRun="true" testRunId="ee0319b1-a729-4510-ace5-9b6cf52dc4ae" repositoryRunId="0">
+          <GraphDescriptors>
+            <GraphDescriptor graphName="Key Indicators">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="LoadTest:Test" counterName="Tests/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16776961" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-8388480" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="LoadTest:Errors" counterName="Errors/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-23296" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="LoadTest:Errors" counterName="Threshold Violations/Sec" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="System under Test">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Controller and Agents">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="Processor" counterName="% Processor Time" instanceName="_Total" baseInstanceName="_Total" loadTestItemId="-1" />
+                </PlotDescriptor>
+                <PlotDescriptor colorArgb="-16744448" lineStyle="0" fixedRange="0" showOnGraph="true" isSelected="false">
+                  <CounterDescriptor machineName="HAL9000" categoryName="Memory" counterName="Available MBytes" instanceName="systemdiagnosticsperfcounterlibsingleinstance" baseInstanceName="systemdiagnosticsperfcounterlibsingleinstance" loadTestItemId="-1" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Test Response Time">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+              <PlotDescriptors>
+                <PlotDescriptor colorArgb="-65536" lineStyle="0" fixedRange="1" showOnGraph="true" isSelected="true" counterMetadata="CRUDPageTest;Scenario1">
+                  <CounterDescriptor machineName="HAL9000" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="CRUDPageTest(000)" baseInstanceName="CRUDPageTest" loadTestItemId="0" />
+                </PlotDescriptor>
+              </PlotDescriptors>
+            </GraphDescriptor>
+            <GraphDescriptor graphName="Transaction Response Time">
+              <HorizontalZoomRange lower="-1" upper="-1" />
+              <VerticalZoomRange lower="0" upper="100" />
+            </GraphDescriptor>
+          </GraphDescriptors>
+        </LoadTestRunDescriptor>
+      </AnalyzerViewState>
+      <Summary>
+        <PerformanceCounterResults>
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="HAL9000" categoryName="LoadTest:Scenario" counterName="User Load" instanceName="_Total" value="25" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="HAL9000" categoryName="LoadTest:Test" counterName="Total Tests" instanceName="_Total" value="100" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="HAL9000" categoryName="LoadTest:Test" counterName="Failed Tests" instanceName="_Total" value="79" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="true" machineName="HAL9000" categoryName="LoadTest:Test" counterName="Tests/Sec" instanceName="_Total" value="34.87767" />
+          <PerformanceCounterResult isOverallResultCounter="true" higherIsBetter="false" machineName="HAL9000" categoryName="LoadTest:Test" counterName="Avg. Test Time" instanceName="_Total" value="0.24" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Processor" counterName="% Processor Time" instanceName="_Total" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="true" machineName="HAL9000" categoryName="Memory" counterName="Available MBytes" instanceName="-" value="1257" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="teredo tunneling pseudo-interface" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="intel[r] wifi link 5100 agn" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.grupocomex.com.mx" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="marvell yukon 88e8055 pci-e gigabit ethernet controller" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Received/sec" instanceName="isatap.{3f78df8a-ac11-470e-ae35-1187d132d5d5}" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="marvell yukon 88e8055 pci-e gigabit ethernet controller" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.grupocomex.com.mx" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="intel[r] wifi link 5100 agn" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="teredo tunneling pseudo-interface" value="0" />
+          <PerformanceCounterResult isOverallResultCounter="false" higherIsBetter="false" machineName="HAL9000" categoryName="Network Interface" counterName="Bytes Sent/sec" instanceName="isatap.{3f78df8a-ac11-470e-ae35-1187d132d5d5}" value="0" />
+        </PerformanceCounterResults>
+        <TestSummaries>
+          <TestSummary scenarioName="Scenario1" testName="CRUDPageTest" totalTests="100" testsFailed="79" averageDuration="239" />
+        </TestSummaries>
+      </Summary>
+    </LoadTestResult>
+  </Results>
+</TestRun>

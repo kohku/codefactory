@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Roles>
+  <Role>
+    <Name>Administrator</Name>
+    <Users>
+      <User>Administrator</User>
+    </Users>
+  </Role>
+  <Role>
+    <Name>Authorizer</Name>
+    <Users>
+      <User>Administrator</User>
+    </Users>
+  </Role>
+</Roles>

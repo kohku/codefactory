@@ -1,0 +1,252 @@
+WebDev.WebServer.EXE Information: 0 : Removing the file with id c98c1b61-c96f-4aa4-a5db-be2f3ffee64e from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id c98c1b61-c96f-4aa4-a5db-be2f3ffee64e
+WebDev.WebServer.EXE Information: 0 : Removing the file with id 8dab094e-28ad-42ab-970f-5208d6eefd9e from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id 8dab094e-28ad-42ab-970f-5208d6eefd9e
+WebDev.WebServer.EXE Information: 0 : Removing the file with id 7b360784-74d7-4794-8881-c8a49d342575 from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id 7b360784-74d7-4794-8881-c8a49d342575
+PostOffice: Preparing message...
+PostOffice: Sending to kohku@cibmex.com.mx...
+PostOffice: Sending failed. Description: The SMTP host was not found..
+PostOffice: Preparing message...
+PostOffice: Sending to kohku@hotmail.com...
+PostOffice: Sending failed. Description: The SMTP host was not found..
+WebDev.WebServer.EXE Information: 0 : Removing the file with id da3af46e-bd39-47d8-a520-6b52a132e985 from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id da3af46e-bd39-47d8-a520-6b52a132e985
+WebDev.WebServer.EXE Information: 0 : Removing the file with id 9ec36ca3-1e5c-4179-addc-31874b3d42a9 from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id 9ec36ca3-1e5c-4179-addc-31874b3d42a9
+WebDev.WebServer.EXE Information: 0 : Removing the file with id c0588f72-7435-45cc-929e-fd9885fa32d5 from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id c0588f72-7435-45cc-929e-fd9885fa32d5
+WebDev.WebServer.EXE Information: 0 : Removing the file with id b24428c1-ec8e-4699-9eac-75176c70f09d from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id b24428c1-ec8e-4699-9eac-75176c70f09d
+WebDev.WebServer.EXE Information: 0 : Removing the file with id 116991c9-ebcc-42ff-a2b5-42c41f589d95 from cache.
+WebDev.WebServer.EXE Information: 0 : Disposing the file with id 116991c9-ebcc-42ff-a2b5-42c41f589d95
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in K:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 292
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 324
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 324
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 324
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 324
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 324
+WebDev.WebServer.EXE Warning: 0 :    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at CodeFactory.Utilities.ResourceStringLoader.LoadAssemblyString(String baseName, String resourceName, Assembly assembly, CultureInfo culture) in C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Utilities\ResourceStringLoader.cs:line 324
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'FileName', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ContentType', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ContentType', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.UploadedFiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+DefaultUploadStorageProvider.CreateFile4Storage error. Description: The content type image/jpeg is not allowed.
+DefaultUploadStorageProvider.CreateFile4Storage error. Description: The content type image/jpeg is not allowed.
+DefaultUploadStorageProvider.CreateFile4Storage error. Description: The content type image/jpeg is not allowed.
+DefaultUploadStorageProvider.CreateFile4Storage error. Description: The content type image/jpeg is not allowed.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'K:\USERS\DAN\DOCUMENTS\DEVELOPMENT\SOURCE\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'K:\USERS\DAN\DOCUMENTS\DEVELOPMENT\SOURCE\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'ApplicationName', table 'K:\USERS\DAN\DOCUMENTS\DEVELOPMENT\SOURCE\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "K:\USERS\DAN\DOCUMENTS\DEVELOPMENT\SOURCE\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : 1 of 2 updates failed.
+WebDev.WebServer.EXE Error: 0 : 1 of 2 updates failed.
+WebDev.WebServer.EXE Error: 0 : 1 of 2 updates failed.
+WebDev.WebServer.EXE Error: 0 : 1 of 2 updates failed.
+WebDev.WebServer.EXE Error: 0 : 1 of 2 updates failed.
+WebDev.WebServer.EXE Error: 0 : Row not found or changed.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'GalleryID', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'GalleryID', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'GalleryID', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'GalleryID', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Cannot insert the value NULL into column 'GalleryID', table 'C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF.dbo.GalleryComments'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : 2 of 3 updates failed.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : 2 of 3 updates failed.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : 2 of 3 updates failed.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : 2 of 3 updates failed.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : The INSERT statement conflicted with the FOREIGN KEY constraint "FK_GalleryComments_Galleries". The conflict occurred in database "C:\DAN\DEVELOPMENT\CODEFACTORY\V3.5\CODEFACTORY.GALLERY.WEBCLIENT\APP_DATA\GALLERY.MDF", table "dbo.Galleries", column 'ID'.
+The statement has been terminated.
+WebDev.WebServer.EXE Error: 0 : Row not found or changed.
+WebDev.WebServer.EXE Error: 0 : Row not found or changed.
+WebDev.WebServer.EXE Error: 0 : Row not found or changed.
+WebDev.WebServer.EXE Error: 0 : Row not found or changed.

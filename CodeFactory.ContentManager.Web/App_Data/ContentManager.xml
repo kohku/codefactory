@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentManager>
+  <Categories>
+    <Category>
+      <ID>acf12290-f4c6-47fe-a4b1-8d5a49c45ba1</ID>
+      <Name>Nivel 1</Name>
+      <ParentID />
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+    </Category>
+    <Category>
+      <ID>35bea558-8955-4269-a581-8cabc18c496c</ID>
+      <Name>Nivel 1A</Name>
+      <ParentID>acf12290-f4c6-47fe-a4b1-8d5a49c45ba1</ParentID>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+    </Category>
+    <Category>
+      <ID>21875570-895a-44ba-a472-3b1bfaeae388</ID>
+      <Name>Nivel 1A.1</Name>
+      <ParentID>35bea558-8955-4269-a581-8cabc18c496c</ParentID>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+    </Category>
+    <Category>
+      <ID>7331ddaf-a775-41d9-80ba-7a2e8ccf9fe9</ID>
+      <Name>Nivel 2</Name>
+      <ParentID />
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+    </Category>
+    <Category>
+      <ID>c1a1dc0e-d78c-4aa6-8086-14920cb40add</ID>
+      <Name>Nivel 2B</Name>
+      <ParentID>7331ddaf-a775-41d9-80ba-7a2e8ccf9fe9</ParentID>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+    </Category>
+    <Category>
+      <ID>126a10bf-19b5-479c-a63c-057693281143</ID>
+      <Name>Nivel 2B.1</Name>
+      <ParentID>c1a1dc0e-d78c-4aa6-8086-14920cb40add</ParentID>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+    </Category>
+    <Category>
+      <ID>ef9dd7e9-645b-41cc-aa94-d79c8a4dace9</ID>
+      <Name>Nivel 3</Name>
+      <ParentID />
+      <DateCreated>2010-09-10 23:58:47</DateCreated>
+      <LastUpdated>2010-09-10 23:58:47</LastUpdated>
+    </Category>
+  </Categories>
+  <Sections>
+    <Section>
+      <ID>34108b62-2b34-4eed-a76c-ebb7c0f0d850</ID>
+      <Name>Nivel 1</Name>
+      <ParentID />
+      <Index>0</Index>
+      <Slug>Nivel_1</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+    <Section>
+      <ID>6921a6bf-df1c-4e5d-b2ae-eba983fed69b</ID>
+      <Name>Nivel 1.1</Name>
+      <ParentID>34108b62-2b34-4eed-a76c-ebb7c0f0d850</ParentID>
+      <Index>0</Index>
+      <Slug>Nivel_1_1</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+    <Section>
+      <ID>2d7ebb74-9f28-4855-a3f1-599df29fd830</ID>
+      <Name>Nivel 1.1.1</Name>
+      <ParentID>6921a6bf-df1c-4e5d-b2ae-eba983fed69b</ParentID>
+      <Index>0</Index>
+      <Slug>Nivel_1_1_1</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+    <Section>
+      <ID>c960141f-3eec-44e5-838c-751838d6ed45</ID>
+      <Name>Nivel 1.2</Name>
+      <ParentID>34108b62-2b34-4eed-a76c-ebb7c0f0d850</ParentID>
+      <Index>0</Index>
+      <Slug>Nivel_1_2</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles>
+        <Role>Administrator</Role>
+      </Roles>
+    </Section>
+    <Section>
+      <ID>3492f1ce-a36e-4ba8-be65-101a2879a106</ID>
+      <Name>Nivel 1.2.1</Name>
+      <ParentID>c960141f-3eec-44e5-838c-751838d6ed45</ParentID>
+      <Index>0</Index>
+      <Slug>Nivel_1_2_1</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+    <Section>
+      <ID>ed764abd-87ae-4395-9d45-718549f16833</ID>
+      <Name>Nivel 1.2.3</Name>
+      <ParentID>c960141f-3eec-44e5-838c-751838d6ed45</ParentID>
+      <Index>0</Index>
+      <Slug>Nivel_1_2_3</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles>
+        <Role>Editor</Role>
+      </Roles>
+    </Section>
+    <Section>
+      <ID>4e894c9f-352d-4af0-be9a-29da49090489</ID>
+      <Name>Nivel 2</Name>
+      <ParentID />
+      <Index>0</Index>
+      <Slug>Nivel_2</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+    <Section>
+      <ID>a4ecef53-45a4-45d7-b3b2-44eb458b9ffe</ID>
+      <Name>Nivel 3</Name>
+      <ParentID />
+      <Index>0</Index>
+      <Slug>Nivel_3</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+    <Section>
+      <ID>8d5ec25f-15af-4deb-bcfe-4e6a3e314417</ID>
+      <Name>Nivel 3.1</Name>
+      <ParentID>a4ecef53-45a4-45d7-b3b2-44eb458b9ffe</ParentID>
+      <Index>0</Index>
+      <Slug>Nivel_3_1</Slug>
+      <Keywords/>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Section>
+  </Sections>
+  <Pages>
+    <Page>
+      <ID>90983831-e1a6-4425-8f79-71c342dfa0df</ID>
+      <Title>First Page</Title>
+      <Slug>FirstPage</Slug>
+      <Description>Description</Description>
+      <Keywords />
+      <Layout>~/settings/layout/twocolumns1layout.ascx</Layout>
+      <SectionID>34108b62-2b34-4eed-a76c-ebb7c0f0d850</SectionID>
+      <ParentID />
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <Author>Administrator</Author>
+      <LastUpdatedBy />
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Page>
+    <Page>
+      <ID>1848c407-a785-4101-9df0-653415a21715</ID>
+      <Title>Second Page</Title>
+      <Slug>SecondPage</Slug>
+      <Description>Description</Description>
+      <Keywords />
+      <Layout>~/settings/layout/twocolumns1layout.ascx</Layout>
+      <SectionID />
+      <ParentID>90983831-e1a6-4425-8f79-71c342dfa0df</ParentID>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <Author>Administrator</Author>
+      <LastUpdatedBy />
+      <IsVisible>False</IsVisible>
+      <Roles></Roles>
+    </Page>
+    <Page>
+      <ID>6812CC92-7084-4f3a-B2F4-9D3445EE9DBE</ID>
+      <Title>Third Page</Title>
+      <Slug>ThirdPage</Slug>
+      <Description>Description</Description>
+      <Keywords />
+      <Layout>~/settings/layout/twocolumns1layout.ascx</Layout>
+      <SectionID />
+      <ParentID>90983831-e1a6-4425-8f79-71c342dfa0df</ParentID>
+      <DateCreated>2010-02-10 10:07:13</DateCreated>
+      <LastUpdated>2010-02-10 10:07:13</LastUpdated>
+      <Author>Administrator</Author>
+      <LastUpdatedBy />
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Page>
+    <Page>
+      <ID>7baaccaa-56c2-490a-9770-0bb2d783a1bc</ID>
+      <Title>fd210714-7b6c-4910-b3fa-21ce35b0a798</Title>
+      <Slug>fd210714-7b6c-4910-b3fa-21ce35b0a798</Slug>
+      <Description>Description</Description>
+      <Keywords>Keywords</Keywords>
+      <Layout>UnknownLayout</Layout>
+      <SectionID>
+      </SectionID>
+      <ParentID>
+      </ParentID>
+      <DateCreated>2010-09-21 16:18:15</DateCreated>
+      <LastUpdated>2010-09-21 16:18:15</LastUpdated>
+      <Author>kohku</Author>
+      <LastUpdatedBy>
+      </LastUpdatedBy>
+      <IsVisible>True</IsVisible>
+      <Roles></Roles>
+    </Page>
+  </Pages>
+  <Modules>
+    <Module>
+      <ID>f7239123-964e-4471-9d0e-070f46290b61</ID>
+      <Title>Footer Control</Title>
+      <Content></Content>
+      <DateCreated>2010-09-21 16:18:15</DateCreated>
+      <LastUpdated>2010-09-21 16:18:15</LastUpdated>
+    </Module>
+    <Module>
+      <ID>a0e8991c-5d49-4317-93de-d79f006f9bea</ID>
+      <Title>Header Control</Title>
+      <Content></Content>
+      <DateCreated>2010-09-21 16:18:15</DateCreated>
+      <LastUpdated>2010-09-21 16:18:15</LastUpdated>
+    </Module>
+    <Module>
+      <ID>4d1dfa17-6901-4579-962c-f1fdc30c65d2</ID>
+      <Title>Navigation Control</Title>
+      <Content></Content>
+      <DateCreated>2010-09-21 16:18:15</DateCreated>
+      <LastUpdated>2010-09-21 16:18:15</LastUpdated>
+    </Module>
+  </Modules>
+</ContentManager>

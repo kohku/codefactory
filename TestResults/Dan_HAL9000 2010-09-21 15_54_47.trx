@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e905351d-5d02-4a33-ae19-1026f05de1b1" name="Dan@HAL9000 2010-09-21 15:54:47" runUser="HAL9000\Dan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="02cef4a3-20cf-43dc-8d79-7916465e7753">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\TestResults\Dan_HAL9000 2010-09-21 15_54_47">
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\com.flajaxian.FileUploader.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\Debug\CodeFactory.ContentManager.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Web\bin\Debug\CodeFactory.Web.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess.Transactions\bin\Debug\CodeFactory.DataAccess.Transactions.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\bin\Debug\CodeFactory.Utilities.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess\bin\Debug\CodeFactory.DataAccess.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-09-21T15:54:47.6476276-05:00" queuing="2010-09-21T15:54:49.4687317-05:00" start="2010-09-21T15:54:49.7827497-05:00" finish="2010-09-21T15:54:50.8048082-05:00" />
+  <TestDefinitions>
+    <UnitTest name="GetPageBySlugTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="daf21cdf-2ebb-f708-6853-a4d029320595">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b2cb4b39-5c73-4bc6-98d7-62bf9e07844e" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPageBySlugTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="daf21cdf-2ebb-f708-6853-a4d029320595" executionId="b2cb4b39-5c73-4bc6-98d7-62bf9e07844e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b2cb4b39-5c73-4bc6-98d7-62bf9e07844e" testId="daf21cdf-2ebb-f708-6853-a4d029320595" testName="GetPageBySlugTest" computerName="HAL9000" duration="00:00:00.1118976" startTime="2010-09-21T15:54:50.0347641-05:00" endTime="2010-09-21T15:54:50.7258036-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <TextMessages>
+          <Message>Recuperando la primera página mediante el slug</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

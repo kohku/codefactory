@@ -1,0 +1,1 @@
+﻿aspnet_regsql -A all -C "Data Source=.\SQLEXPRESS;Integrated Security=True;User Instance=True" -d "C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Wiki.WebClient\App_Data\Wiki.mdf"

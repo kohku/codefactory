@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentManagerSettings>
+  <defaultlayout>~/settings/layout/defaultLayout.ascx</defaultlayout>
+  <defaultpage>~/default.aspx</defaultpage>
+  <siteMapRootName>Home</siteMapRootName>
+</ContentManagerSettings>

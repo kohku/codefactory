@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/default.aspx" title="Web Site" description="Home">
+    <siteMapNode provider="ContentManagerProvider" />
+    <siteMapNode url="~/tools/default.aspx" title="Tools"  description="Tools" roles="Editor" >
+      <siteMapNode url="~/tools/uploadedFilesCatalog.aspx" title="Uploaded files catalog"  description="A catalog with uploaded images." roles="Editor" />
+    </siteMapNode>
+    <siteMapNode url="~/GetPage.aspx" title="New page" description="New page" roles="Administrator"/>
+    <siteMapNode url="~/admin/default.aspx" title="Security" description="Security Management" roles="Administrator" >
+      <siteMapNode url="~/admin/contentManagerSettings.aspx" title="Content Manager Settings" roles="Administrator"/>
+      <siteMapNode url="~/admin/manageUsers.aspx" title="Users Management" description="Users Management"/>
+      <siteMapNode url="~/admin/addUser.aspx" title="Create User" description="Users Management"/>
+      <siteMapNode url="~/admin/manageAllRoles.aspx" title="Roles Management" description="Roles Management"/>
+    </siteMapNode>
+    <siteMapNode url="~/sitemap.aspx" title="Site map" description="Site map" />
+  </siteMapNode>
+</siteMap>

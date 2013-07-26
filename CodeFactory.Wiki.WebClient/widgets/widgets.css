@@ -1,0 +1,38 @@
+﻿#tagcloud 
+{
+	border: solid 1px #dddddd;
+	clear: none;
+	display: block;
+	float: none;
+	margin: 0px 0px 0px 0px;
+	padding: 5px 5px 5px 5px;
+	text-align: justify;
+}
+
+#tagcloud a 
+{
+	display: inline-block;
+	margin-right: 3px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+#tagcloud a.biggest {
+	font-size: 20px;
+}
+
+#tagcloud a.big {
+	font-size: 17px;
+}
+
+#tagcloud a.medium {
+	font-size: 13px;
+}
+
+#tagcloud a.small {
+	font-size: 12px;
+}
+
+#tagcloud a.smallest {
+	font-size: 10px;
+}

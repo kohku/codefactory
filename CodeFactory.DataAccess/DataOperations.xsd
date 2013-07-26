@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:schema id="DataAccessSettings" targetNamespace="CodeFactory.DataAccess" elementFormDefault="qualified" xmlns="CodeFactory.DataAccess" xmlns:s="http://www.w3.org/2001/XMLSchema">
+  <s:element name="dataOperations">
+    <s:complexType>
+      <s:sequence>
+        <s:element minOccurs="0" maxOccurs="1" name="dataCommands">
+          <s:complexType>
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="dataCommand" type="dataCommand" />
+            </s:sequence>
+          </s:complexType>
+        </s:element>
+        <s:element minOccurs="0" maxOccurs="1" name="dataSetAdapters">
+          <s:complexType>
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="dataSetAdapter" type="dataSetAdapter" />
+            </s:sequence>
+          </s:complexType>
+        </s:element>
+      </s:sequence>
+      <s:attribute name="dataSource" type="s:string" />
+    </s:complexType>
+  </s:element>
+  <s:complexType name="dataCommand">
+    <s:sequence>
+      <s:element minOccurs="1" maxOccurs="1" name="commandText" type="s:string" />
+      <s:element minOccurs="0" maxOccurs="1" name="replaceByParamValues">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="unbounded" name="replaceByParamValue" type="replaceByParamValue" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element minOccurs="0" maxOccurs="1" name="parameters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="unbounded" name="param" type="param" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:sequence>
+    <s:attribute name="name" type="s:string" />
+    <s:attribute name="type" type="s:string" />
+    <s:attribute name="populateParameters" type="s:boolean" default="false" />
+    <s:attribute name="timeout" type="s:int" default="-1" />
+  </s:complexType>
+  <s:complexType name="param">
+    <s:attribute name="key" type="s:string" />
+    <s:attribute name="name" type="s:string" />
+    <s:attribute name="type" type="s:string" />
+    <s:attribute name="direction" type="s:string" />
+    <s:attribute name="size" type="s:int" />
+    <s:attribute name="sourceVersion" type="s:string" />
+    <s:attribute name="sourceColumn" type="s:string" />
+    <s:attribute name="scale" type="s:byte" />
+    <s:attribute name="isNullable" type="s:boolean" />
+  </s:complexType>
+  <s:complexType name="replaceByParamValue">
+    <s:sequence>
+      <s:element minOccurs="1" maxOccurs="1" name="oldString" type="s:string" />
+      <s:element minOccurs="1" maxOccurs="1" name="newString" type="s:string" />
+      <s:element minOccurs="0" maxOccurs="1" name="defaultString" type="s:string" />
+    </s:sequence>
+    <s:attribute name="paramName" type="s:string" />
+    <s:attribute name="paramValue" type="s:string" />
+  </s:complexType>
+  <s:complexType name="dataSetAdapter">
+    <s:sequence>
+      <s:element name="selectCommand" type="dataCommand" minOccurs="1" maxOccurs="1" />
+      <s:element name="insertCommand" type="dataCommand" minOccurs="0" maxOccurs="1" />
+      <s:element name="updateCommand" type="dataCommand" minOccurs="0" maxOccurs="1" />
+      <s:element name="deleteCommand" type="dataCommand" minOccurs="0" maxOccurs="1" />
+      <s:element name="tableMappings" minOccurs="0" maxOccurs="1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="unbounded" name="tableMapping" type="tableMapping" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:sequence>
+    <s:attribute name="name" type="s:string" />
+    <s:attribute name="type" type="s:string" />
+    <s:attribute name="populateCommands" type="s:boolean" default="false" />
+  </s:complexType>
+  <s:complexType name="tableMapping">
+    <s:sequence>
+      <s:element name="columnMappings" minOccurs="0" maxOccurs="1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="unbounded" name="columnMapping" type="columnMapping" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:sequence>
+    <s:attribute name="sourceTable" type="s:string" />
+    <s:attribute name="dataSetTable" type="s:string" />
+  </s:complexType>
+  <s:complexType name="columnMapping">
+    <s:attribute name="sourceColumn" type="s:string" />
+    <s:attribute name="dataSetColumn" type="s:string" />
+  </s:complexType>
+</s:schema>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ccb2ff58-3658-4045-b8a2-ea233b9233d0" name="Dan@HAL9000 2010-09-21 15:32:59" runUser="HAL9000\Dan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="02cef4a3-20cf-43dc-8d79-7916465e7753">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\TestResults\Dan_HAL9000 2010-09-21 15_32_59">
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\com.flajaxian.FileUploader.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager\bin\Debug\CodeFactory.ContentManager.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Web\bin\Debug\CodeFactory.Web.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess.Transactions\bin\Debug\CodeFactory.DataAccess.Transactions.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.Utilities\bin\Debug\CodeFactory.Utilities.dll" />
+      <DeploymentItem filename="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.DataAccess\bin\Debug\CodeFactory.DataAccess.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-09-21T15:32:59.8138238-05:00" queuing="2010-09-21T15:33:00.5308648-05:00" start="2010-09-21T15:33:00.7808791-05:00" finish="2010-09-21T15:33:01.6669298-05:00" />
+  <TestDefinitions>
+    <UnitTest name="GetPageBySlugTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="daf21cdf-2ebb-f708-6853-a4d029320595">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f292181-d2af-4115-a4a3-8e15ba7b0a0c" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPageBySlugTest" />
+    </UnitTest>
+    <UnitTest name="GetPageTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="a76a9fb4-c043-218f-1f5f-628f3daa68e8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="874c6a57-565d-47d4-a07f-2b2b88d470ae" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPageTest" />
+    </UnitTest>
+    <UnitTest name="GetPagesTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="02a323d6-56a8-e503-6c8b-652413a37be8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a37a9b69-1763-4383-b211-f5bc3f90ed31" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetPagesTest" />
+    </UnitTest>
+    <UnitTest name="CRUDPageTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="9567f949-1066-318c-2879-9c86b79d033d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="10a228c5-1e52-4150-be04-6baedf64fec6" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="CRUDPageTest" />
+    </UnitTest>
+    <UnitTest name="GetChildPagesTest" storage="c:\users\dan\documents\development\source\codefactory\v3.5\codefactory.contentmanager.test\bin\debug\codefactory.contentmanager.test.dll" id="82901c3a-4ecb-81ce-02fd-623b09674825">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1035770b-e53a-4a13-a4e0-6407e039d589" />
+      <TestMethod codeBase="C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Test\bin\Debug\CodeFactory.ContentManager.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodeFactory.ContentManager.Test.ContentManagementServiceTest, CodeFactory.ContentManager.Test" name="GetChildPagesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="82901c3a-4ecb-81ce-02fd-623b09674825" executionId="1035770b-e53a-4a13-a4e0-6407e039d589" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="daf21cdf-2ebb-f708-6853-a4d029320595" executionId="5f292181-d2af-4115-a4a3-8e15ba7b0a0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a76a9fb4-c043-218f-1f5f-628f3daa68e8" executionId="874c6a57-565d-47d4-a07f-2b2b88d470ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9567f949-1066-318c-2879-9c86b79d033d" executionId="10a228c5-1e52-4150-be04-6baedf64fec6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02a323d6-56a8-e503-6c8b-652413a37be8" executionId="a37a9b69-1763-4383-b211-f5bc3f90ed31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1035770b-e53a-4a13-a4e0-6407e039d589" testId="82901c3a-4ecb-81ce-02fd-623b09674825" testName="GetChildPagesTest" computerName="HAL9000" duration="00:00:00.1159451" startTime="2010-09-21T15:33:00.8338821-05:00" endTime="2010-09-21T15:33:01.4859194-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <TextMessages>
+          <Message>Recuperando todas las páginas hijo sin especificar parentId</Message>
+          <Message>Recuperando solo las hijas especificando el parentId</Message>
+          <Message>Recuperando solo las hijas especificando el parentId y con la paginación errónea</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f292181-d2af-4115-a4a3-8e15ba7b0a0c" testId="daf21cdf-2ebb-f708-6853-a4d029320595" testName="GetPageBySlugTest" computerName="HAL9000" duration="00:00:00.0038278" startTime="2010-09-21T15:33:01.5079207-05:00" endTime="2010-09-21T15:33:01.5179212-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <TextMessages>
+          <Message>Recuperando la primera página mediante el slug</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="874c6a57-565d-47d4-a07f-2b2b88d470ae" testId="a76a9fb4-c043-218f-1f5f-628f3daa68e8" testName="GetPageTest" computerName="HAL9000" duration="00:00:00.0108334" startTime="2010-09-21T15:33:01.5379224-05:00" endTime="2010-09-21T15:33:01.5519232-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <TextMessages>
+          <Message>Recuperando la primera página mediante el id</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10a228c5-1e52-4150-be04-6baedf64fec6" testId="9567f949-1066-318c-2879-9c86b79d033d" testName="CRUDPageTest" computerName="HAL9000" duration="00:00:00.0375241" startTime="2010-09-21T15:33:01.5579235-05:00" endTime="2010-09-21T15:33:01.5999259-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a37a9b69-1763-4383-b211-f5bc3f90ed31" testId="02a323d6-56a8-e503-6c8b-652413a37be8" testName="GetPagesTest" computerName="HAL9000" duration="00:00:00.0052113" startTime="2010-09-21T15:33:01.6169269-05:00" endTime="2010-09-21T15:33:01.6259274-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <TextMessages>
+          <Message>Recuperando todas las páginas</Message>
+          <Message>Recuperando las páginas invisibles</Message>
+          <Message>Recuperando la primera página</Message>
+          <Message>Recuperando la primera página</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

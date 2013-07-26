@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CodeFactory.Wiki.WikiService">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Field Name="_defaultProvider" Hidden="true" />
+      <Field Name="_providers" Hidden="true" />
+      <Field Name="_restrictedSlugs" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAQAKkAoAIEAKAAAIIISAAAIQCCAAiCiICgCkAAGgA=</HashCode>
+      <FileName>WikiService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeFactory.Wiki.WikiProvider">
+    <Position X="3.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAKgAgAIEAKAAAAYICAAAIQCCQAiCjICgCkEACgA=</HashCode>
+      <FileName>WikiProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CodeFactory.Wiki.Providers.LinqWikiProvider">
+    <Position X="7" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="_applicationName" Hidden="true" />
+      <Field Name="_connectionStringName" Hidden="true" />
+      <Field Name="_synchronousExecution" Hidden="true" />
+      <Field Name="DefaultEndTime" Hidden="true" />
+      <Field Name="DefaultStartTime" Hidden="true" />
+      <Field Name="IncludeWeekends" Hidden="true" />
+      <Field Name="RequestSchemaPath" Hidden="true" />
+      <Field Name="ResponseSchemaPath" Hidden="true" />
+      <Field Name="theSchedulerService" Hidden="true" />
+      <Field Name="theServiceProvider" Hidden="true" />
+      <Field Name="theWorkflowRuntime" Hidden="true" />
+      <Field Name="TimeToExpire" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BEAwAKwAoCYEBaAAAkIICwAAIQiaAAiCiICkSkAAGgQ=</HashCode>
+      <FileName>Providers\LinqWikiProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

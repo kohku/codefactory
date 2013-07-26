@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Gallery" Class="LinqGalleryDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Gallery.WebClient\App_Data\Gallery.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="CodeFactory.Gallery.Core.Properties.Settings" SettingsPropertyName="GalleryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.GalleryUsers" Member="GalleryUsers">
+    <Type Name="GalleryUser">
+      <Column Name="GalleryID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(512) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

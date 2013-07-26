@@ -1,0 +1,88 @@
+﻿#__uploadedfiles_main
+{
+    display: block;
+    float: none;
+    clear: both;
+    height: 400px;
+    width: 904px;
+}
+
+#__uploadedfiles_main #__address_bar
+{
+    display: block;
+    float: none;
+    clear: both;
+    width: 900px;
+    border: dotted 1px #cccccc;
+}
+
+#__uploadedfiles_main #__tree
+{
+    display: block;
+    float: left;
+    height: 400px;
+    width: 200px;
+    vertical-align: top;
+    border: dotted 1px #cccccc;
+}
+
+#__uploadedfiles_main #__content
+{
+    display: block;
+    float: left;
+    height: 100%;
+    width: 700px;
+    overflow: auto;
+    border: dotted 1px #cccccc;
+    vertical-align: top;
+}
+
+#__uploadedfiles_main #__content #__item
+{
+    display: block;
+    float: left;
+    padding-top: 20px;
+    /*margin-top: 10px;*/
+    height: 80px;
+    width: 100px;   
+    border: dotted 1px #cccccc;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#__uploadedfiles_main #__tools
+{
+    display: block;
+    float: none;
+    clear: both;
+    height: 60px;
+    width: 900px;
+    border: dotted 1px #cccccc;
+}
+
+#__uploadedfiles_main #__status_bar
+{
+    display: block;
+    float: none;
+    clear: both;
+    height: 20px;
+    width: 900px;
+    border: dotted 1px #cccccc;
+}
+
+#__uploadedfiles_main #__status_bar #__progress_bar
+{
+    display: block;
+    float: left;
+    height: 22px;
+    width: 20px;
+}
+
+#__uploadedfiles_main #__status_bar #StatusBar
+{
+    display: block;
+    float: left;
+    height: 17px;
+    width: 800px;
+    padding-top:3px;
+}

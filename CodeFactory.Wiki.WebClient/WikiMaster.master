@@ -1,0 +1,219 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="WikiMaster.master.cs" Inherits="WikiMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Wiki - Master</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .content
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: #999999;
+            line-height: 16px;
+            text-align: justify;
+            word-spacing: normal;
+        }
+        a:link
+        {
+            text-decoration: none;
+        }
+        a
+        {
+            color: #00ADEF;
+        }
+        .content_bold
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            color: #999999;
+            line-height: 16px;
+            text-align: justify;
+            word-spacing: normal;
+        }
+        .content_bold
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: #999999;
+            line-height: 16px;
+            text-align: justify;
+            word-spacing: normal;
+            font-weight: bold;
+        }
+        .content_footer
+        {
+	        font-family: Verdana, Arial, Helvetica, sans-serif;
+	        font-size: 12px;
+	        color: #999999;
+	        line-height: 16px;
+	        text-align: justify;
+	        word-spacing: normal;
+        }
+        .style1
+        {
+            margin-left: 2px;
+        }
+        .style2
+        {
+            width: 42px;
+        }
+        .style3
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            color: #999999;
+            line-height: 16px;
+            text-align: justify;
+            word-spacing: normal;
+            width: 177px;
+        }
+        .style4
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            color: #999999;
+            line-height: 16px;
+            text-align: justify;
+            word-spacing: normal;
+            height: 83px;
+        }
+        .loginInfo
+        {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: lighter;
+            color: #cccccc;
+            font-size: 10px;
+            line-height: 18px;
+            text-transform: none;
+            text-align: left;
+        }
+        .login
+        {
+            height: 83px;
+        }
+    </style>
+</head>
+<body style="margin: 0px 0px 0px 0px; background-color: #e9e9e9;">
+    <form id="form1" runat="server">
+    <div align="center" style="width: 100%; margin: 0 auto;">
+        <div align="center" style="width: 810px; margin: 0 auto; background-color: #ffffff;">
+            <div style="width: 770px; text-align: left; vertical-align: bottom;">
+                <asp:ContentPlaceHolder ID="HeaderPlaceHolder" runat="server">
+                    <table width="770" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="style3" rowspan="2" valign="bottom">
+                                <asp:ImageButton ID="LogoWikiImage" runat="server" ImageUrl="~/images/logo_investiga_wiki.jpg"
+                                    OnClick="LogoWikiImage_Click" CausesValidation="False" />
+                            </td>
+                            <td>
+                            </td>
+                            <td colspan="9" class="login">
+                                <br />
+                                <br />
+                                <br />
+                                <asp:LoginName ID="TheLoginName" runat="server" CssClass="loginInfo" FormatString="Bienvenido {0}" />
+                                &nbsp;<asp:LinkButton runat="server" ID="ThePreferencesLink" 
+                                    CssClass="loginInfo" PostBackUrl="~/Preferences.aspx"
+                                    Text="|&amp;nbsp;Preferencias&amp;nbsp;|" />&nbsp;<asp:LoginStatus ID="TheLoginStatus" runat="server" CssClass="loginInfo" LogoutText="Salir"
+                                    LogoutAction="Redirect" LogoutPageUrl="~/LogOut.aspx?SkipAuthentication=true" />
+                            </td>
+                            <td class="style4" colspan="2">
+                                <asp:Image ID="LogoCompanyImage" runat="server" ImageUrl="~/images/logo_comex.jpg"
+                                    ImageAlign="Right" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="11" class="content_bold">
+                                <asp:Image ID="Bullet1Image" runat="server" ImageUrl="~/images/bullet.gif" />
+                            </td>
+                            <td class="style2">
+                                <asp:HyperLink ID="WelcomeLink" runat="server" NavigateUrl="~/Wiki/Bienvenida.aspx"
+                                    CausesValidation="False" CssClass="content_bold"><span class="content_bold">Bienvenida</span></asp:HyperLink>
+                            </td>
+                            <td width="20">
+                                <asp:Image ID="Spacer2Image" runat="server" ImageUrl="~/images/spacer.gif" CssClass="style1" />
+                            </td>
+                            <td width="20" class="content_bold">
+                                <asp:Image ID="Spacer3Image" runat="server" ImageUrl="~/images/spacer.gif" />
+                            </td>
+                            <td width="11" class="content_bold">
+                                <asp:Image ID="Bullet3Image" runat="server" ImageUrl="~/images/bullet.gif" />
+                            </td>
+                            <td width="71">
+                                <asp:HyperLink ID="ContactUsLink" runat="server" NavigateUrl="~/Wiki/Contactanos.aspx"
+                                    CausesValidation="False" CssClass="content_bold"><span class="content_bold">Contáctanos</span></asp:HyperLink>
+                            </td>
+                            <td width="20" class="content_bold">
+                                <asp:Image ID="Spacer4Image" runat="server" ImageUrl="~/images/spacer.gif" />
+                            </td>
+                            <td width="20" class="content_bold">
+                                <asp:Image ID="Spacer5Image" runat="server" ImageUrl="~/images/spacer.gif" />
+                            </td>
+                            <td width="11" class="content_bold">
+                                <asp:Image ID="Bullet5Image" runat="server" ImageUrl="~/images/bullet.gif" />
+                            </td>
+                            <td width="129">
+                                <asp:LinkButton CssClass="content_bold" ID="CreateContentLinkButton" runat="server"
+                                    CausesValidation="False" OnClick="CreateContentLinkButton_Click">Ingresar Contenido</asp:LinkButton>
+                            </td>
+                            <td width="120">
+                                <label>
+                                    <asp:TextBox ID="SearchTextBox" runat="server" CssClass="content_bold" MaxLength="100"
+                                        Width="125px"></asp:TextBox>
+                                </label>
+                            </td>
+                            <td width="77">
+                                <asp:ImageButton ID="SearchButton" runat="server" ImageUrl="~/images/btn_buscar.jpg"
+                                    OnClick="SearchButton_Click" CausesValidation="False" />
+                            </td>
+                        </tr>
+                    </table>
+                </asp:ContentPlaceHolder>
+                <div id="content">
+                <asp:ContentPlaceHolder ID="MainPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+                </div>
+                <asp:ContentPlaceHolder ID="FooterPlaceHolder" runat="server">
+                    <table width="539" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="539" height="70">
+                                <div align="center">
+                                    <p>
+                                        <span class="content_footer">
+                                            <asp:HyperLink runat="server" NavigateUrl="~/Default.aspx" ID="footer1Link0">Inicio</asp:HyperLink>
+                                            <span class="content_footer">&nbsp;</span>|<span class="content_footer"> </span>
+                                            <asp:HyperLink runat="server" NavigateUrl="~/CategoryIndex.aspx" ID="footer1Link">Índice de Categorías</asp:HyperLink>
+                                        </span>&nbsp;<span class="content_footer">|
+                                            <asp:HyperLink runat="server" ID="footer3Link0" NavigateUrl="~/Entry.aspx">Ingresar 
+          Contenido</asp:HyperLink>
+                                            <span class="content_footer">&nbsp;|
+                                                <asp:HyperLink runat="server" ID="footer3Link1" NavigateUrl="~/Wiki/Contactanos.aspx">Contáctanos</asp:HyperLink>
+                                            </span>
+                                            <br />
+                                        </span>
+                                    </p>
+                                    <p>
+                                        <span class="content">CodeFactory 2009</span></p>
+                                </div>
+                                <div align="center">
+                                    <span>&nbsp;</span></div>
+                            </td>
+                        </tr>
+                    </table>
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

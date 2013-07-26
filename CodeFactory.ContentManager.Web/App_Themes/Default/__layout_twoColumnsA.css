@@ -1,0 +1,34 @@
+﻿div#__layout.twoColumnsA div#__header
+{
+    display: block;
+    float: none; 
+    width: 955px;
+}
+
+div#__layout.twoColumnsA div#__main
+{
+    display: block; 
+    float: none; 
+}
+
+div#__layout.twoColumnsA div#__main div#__left
+{
+    display: block;
+    float: left; 
+    width: 255px;
+}
+
+div#__layout.twoColumnsA div#__main div#__right
+{
+    display: block;
+    float: left; 
+    width: 700px;
+}
+
+div#__layout.twoColumnsA div#__footer
+{
+    display: block; 
+    float: none; 
+    width: 955px;
+}
+

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CodeFactory.Web.Storage.PersistableUploadedFile">
+    <Position X="2.75" Y="0.5" Width="2.75" />
+    <Members>
+      <Field Name="_applicationName" Hidden="true" />
+      <Field Name="_contentLength" Hidden="true" />
+      <Field Name="_contentType" Hidden="true" />
+      <Field Name="_data" Hidden="true" />
+      <Field Name="_dateCreated" Hidden="true" />
+      <Field Name="_description" Hidden="true" />
+      <Field Name="_filename" Hidden="true" />
+      <Field Name="_id" Hidden="true" />
+      <Field Name="_lastUpdated" Hidden="true" />
+      <Field Name="_parentId" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABAAkgAQEAEBAEAEAAACAABAAAAAUgADAAAA=</HashCode>
+      <FileName>Storage\PersistableUploadedFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CodeFactory.Web.Storage.UploadedFile">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="_file" Hidden="true" />
+      <Field Name="_inputstream" Hidden="true" />
+      <Field Name="_parent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CodeFactory.Web.Storage.UploadedFile.MediaType">
+        <TypeIdentifier>
+          <NewMemberFileName>Storage\UploadedFile.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAACAAAAACAkAAAAAAACQCEQBAAYARAgBABUgABAEAQ=</HashCode>
+      <FileName>Storage\UploadedFile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CodeFactory.Web.Storage.IUploadedFile">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAEAAAAAABAAAAAUgABAAAA=</HashCode>
+      <FileName>Storage\IUploadedFile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CodeFactory.Web.Core.IIdentifiable&lt;KEY&gt;">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core\IIdentifiable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

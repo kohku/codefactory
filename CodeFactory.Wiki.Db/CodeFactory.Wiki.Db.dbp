@@ -1,0 +1,36 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "CodeFactory.Wiki.Db"
+   MSDTVersion = "80"
+   DefDBRef = "Wiki.mdf"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "DropSqlPersistenceProviderLogic.sql"
+      Script = "DropSqlPersistenceProviderSchema.sql"
+      Script = "SqlPersistenceProviderLogic.sql"
+      Script = "SqlPersistenceProviderSchema.sql"
+      Script = "SqlPersistenceService_Logic.sql"
+      Script = "SqlPersistenceService_Schema.sql"
+      Script = "UploadedFiles.SQL"
+      Script = "UploadStorage_GetFiles.SQL"
+      Script = "wikis.dbo.Files.SQL"
+      Script = "Wikis.dbo.GetRandomWiki.SQL"
+      Script = "wikis.dbo.ReporteEstadistico.SQL"
+      Script = "wikis.dbo.Statistics.SQL"
+      Script = "Wikis.dbo.TagCloud.SQL"
+      Script = "wikis.dbo.WikiAuthorizers.SQL"
+      Script = "wikis.dbo.WikiCategories.SQL"
+      Script = "wikis.dbo.Wikis.SQL"
+      Script = "wikis.dbo.WikisHistory.SQL"
+      Script = "wikis.dbo.WorkWikiItems.SQL"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "Wiki.mdf"
+         ConnectStr = "Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Wiki.WebClient\App_Data\Wiki.mdf;Integrated Security=True;User Instance=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9494973E-C482-4A64-90F6-9F507830FBC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeFactory.Wiki</RootNamespace>
+    <AssemblyName>CodeFactory.Wiki</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Workflow.Activities">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.ComponentModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.WorkflowServices">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HttpModules\CredentialScreeningModule.cs" />
+    <Compile Include="HttpModules\UrlRewrite.cs" />
+    <Compile Include="IWiki.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\LinqWikiProvider.cs" />
+    <Compile Include="Providers\AlternateWikiDataContext.cs" />
+    <Compile Include="Providers\WikiDataContext.cs">
+      <DependentUpon>WikiDataContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\WikiDataContext.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WikiDataContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ReachLevel.cs" />
+    <Compile Include="Resources\Wiki.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wiki.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\TraceHit.cs" />
+    <Compile Include="Statistics\TraceListener.cs" />
+    <Compile Include="Statistics\TraceStatistics.cs" />
+    <Compile Include="Wiki.cs" />
+    <Compile Include="WikiService.cs" />
+    <Compile Include="WikiSettings.cs" />
+    <Compile Include="WikiProvider.cs" />
+    <Compile Include="WikiProviderCollection.cs" />
+    <Compile Include="Workflow\AuthorizeEntries.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Workflow\AuthorizeEntries.designer.cs">
+      <DependentUpon>AuthorizeEntries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Workflow\IWikiServiceProvider.cs" />
+    <Compile Include="Workflow\IWorkWikiItem.cs" />
+    <Compile Include="Workflow\ServiceProviderHelper.cs" />
+    <Compile Include="Workflow\WikiEntryEventArgs.cs" />
+    <Compile Include="Workflow\WikiHistory.cs" />
+    <Compile Include="Workflow\WikiSerializable.cs" />
+    <Compile Include="Workflow\WorkWikiItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFactory.DataAccess.Transactions\CodeFactory.DataAccess.Transactions.csproj">
+      <Project>{2CF270E6-DBFB-41E2-AAEB-61C0F08B147A}</Project>
+      <Name>CodeFactory.DataAccess.Transactions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.DataAccess\CodeFactory.DataAccess.csproj">
+      <Project>{C3427CCF-9FEB-40E4-8AF1-510506ACC38F}</Project>
+      <Name>CodeFactory.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Utilities\CodeFactory.Utilities.csproj">
+      <Project>{AB5ED03D-F6D5-4272-9A73-9FD5877917CF}</Project>
+      <Name>CodeFactory.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Web\CodeFactory.Web.csproj">
+      <Project>{255A21C3-33D9-4DB0-BE1F-278C689A165D}</Project>
+      <Name>CodeFactory.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Workflow\CodeFactory.Workflow.csproj">
+      <Project>{5EE0A261-CD60-4908-8EF1-5CCD6494A458}</Project>
+      <Name>CodeFactory.Workflow</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Providers\WikiDataContext.dbml.layout">
+      <DependentUpon>WikiDataContext.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Resources\Wiki.en.resx" />
+    <EmbeddedResource Include="Resources\Wiki.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Wiki.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Providers.cd" />
+    <None Include="Providers\WikiDataContext.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>WikiDataContext.designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

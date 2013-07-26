@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="TestingCenter" Class="PagesInRolesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Users\Dan\Documents\Development\Source\CodeFactory\v3.5\CodeFactory.ContentManager.Web\App_Data\TestingCenter.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="CodeFactory.ContentManager.Properties.Settings" SettingsPropertyName="TestingCenterConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PagesInRoles" Member="PagesInRoles">
+    <Type Name="PagesInRole">
+      <Column Name="pageId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="roleName" Type="System.String" DbType="NVarChar(256) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SectionsInRoles" Member="SectionsInRoles">
+    <Type Name="SectionsInRole">
+      <Column Name="sectionId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="roleName" Type="System.String" DbType="NVarChar(256) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

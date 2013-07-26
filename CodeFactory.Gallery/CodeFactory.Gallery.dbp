@@ -1,0 +1,40 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "CodeFactory.Gallery"
+   MSDTVersion = "80"
+   DefDBRef = "Gallery.mdf"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "Categories.SQL"
+      Script = "DropSqlPersistenceProviderLogic.sql"
+      Script = "DropSqlPersistenceProviderSchema.sql"
+      Script = "Galleries.SQL"
+      Script = "GalleryComments.SQL"
+      Script = "GalleryManagement_GetGalleries.SQL"
+      Script = "GalleryUsers.SQL"
+      Script = "Modules.SQL"
+      Script = "Pages.SQL"
+      Script = "PagesInRoles.SQL"
+      Script = "Publications.SQL"
+      Script = "Sections.SQL"
+      Script = "SectionsInRoles.SQL"
+      Script = "SqlPersistenceProviderLogic.sql"
+      Script = "SqlPersistenceProviderSchema.sql"
+      Script = "UploadedFiles.SQL"
+      Script = "UploadStorage_GetFiles.SQL"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "danserver64\sqlexpress.TestingCenter.db_owner"
+         ConnectStr = "Data Source=DANSERVER64\SQLEXPRESS;Initial Catalog=TestingCenter;Persist Security Info=True;User ID=TestDummy"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+      Begin DBRefNode = "Gallery.mdf"
+         ConnectStr = "Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Gallery.WebClient\App_Data\Gallery.mdf;Integrated Security=True;User Instance=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

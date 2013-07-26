@@ -1,0 +1,1 @@
+aspnet_regsql.exe -A all -C "Data Source=.\SQLEXPRESS;Integrated Security=True;User Instance=True" -d "C:\Dan\Development\CodeFactory\v3.5\CodeFactory.GalleryManagement.WebClient\App_Data\Gallery.mdf"

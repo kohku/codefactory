@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CodeFactory.Gallery.Core.Gallery">
+    <Position X="5.75" Y="1" Width="2" />
+    <Members>
+      <Field Name="_comments" Hidden="true" />
+      <Field Name="_files" Hidden="true" />
+      <Field Name="_gallery" Hidden="true" />
+      <Field Name="_users" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>BgFCACVcNgAkFEc0gAQDYCEWRkAQRIAgDAQBAAQAsYA=</HashCode>
+      <FileName>Gallery.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CodeFactory.Web.Core.BusinessBase&lt;TYPE, KEY&gt;">
+    <Position X="3" Y="1.5" Width="2" />
+    <Members>
+      <Field Name="_identifiable" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CodeFactory.Gallery.Core.IGallery">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAAAAAAAAAAAAAAAEAAAQAAAAAAAAAAAAIIA=</HashCode>
+      <FileName>IGallery.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CodeFactory.Gallery.Core.IPublishable">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgEEAAgAAAAAECAAAAAAAAAAAEAAQAgAA=</HashCode>
+      <FileName>IPublishable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CodeFactory.Web.Core.IIdentifiable&lt;KEY&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="CodeFactory.Gallery.Core.GalleryStatus">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQACAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Gallery.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CodeFactory.Gallery.Core.SaveAction">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>SavedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

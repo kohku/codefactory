@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C615A121-E552-4EAA-A161-521959B0BA2A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CodeFactory.ContentManager</RootNamespace>
+    <AssemblyName>CodeFactory.ContentManager</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="com.flajaxian.FileUploader, Version=2.0.3430.0, Culture=neutral, PublicKeyToken=98ef6b70d9d62bae, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\com.flajaxian.FileUploader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Category.cs" />
+    <Compile Include="IPublicationRepository.cs" />
+    <Compile Include="ISectionRepository.cs" />
+    <Compile Include="IPageRepository.cs" />
+    <Compile Include="IModuleRepository.cs" />
+    <Compile Include="IPostRepository.cs" />
+    <Compile Include="DatabaseSetup.cs" />
+    <Compile Include="Flajaxian\UploadStorageAdapter.cs" />
+    <Compile Include="ICategoryRepository.cs" />
+    <Compile Include="Providers\LinqPost.cs" />
+    <Compile Include="Providers\XmlContentManagerProvider.cs" />
+    <Compile Include="UrlPath.cs" />
+    <Compile Include="WebControls\CategoryCollection.cs" />
+    <Compile Include="WebControls\CategoryDataSource.cs" />
+    <Compile Include="WebControls\CategoryDataSourceView.cs" />
+    <Compile Include="WebControls\CategoryHierarchyData.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="ContentManagermentService.cs" />
+    <Compile Include="ISection.cs" />
+    <Compile Include="Providers\LinqPublication.cs" />
+    <Compile Include="Providers\LinqSection.cs" />
+    <Compile Include="Post.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\ContentManagerDataContext.cs" />
+    <Compile Include="Providers\LinqContentManagerProvider.cs" />
+    <Compile Include="HttpModules\UrlRewrite.cs" />
+    <Compile Include="ICategory.cs" />
+    <Compile Include="IModule.cs" />
+    <Compile Include="IPage.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="Page.cs" />
+    <Compile Include="Providers\LinqCategory.cs" />
+    <Compile Include="Providers\LinqModule.cs" />
+    <Compile Include="Providers\LinqPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\PagesInRoles.cs">
+      <DependentUpon>PagesInRoles.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\PagesInRoles.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PagesInRoles.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\SiteMapNode.cs" />
+    <Compile Include="Providers\SiteMapProvider.cs" />
+    <Compile Include="Resources\ContentManager.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContentManager.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\WebControls.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebControls.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\WebParts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WebParts.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Providers\ContentManagementProvider.cs" />
+    <Compile Include="Providers\ContentManagementProviderCollection.cs" />
+    <Compile Include="Section.cs" />
+    <Compile Include="Settings\ContentManagerSettings.cs" />
+    <Compile Include="WebControls\ContextMenu.cs" />
+    <Compile Include="WebControls\ContextMenuItemCollection.cs" />
+    <Compile Include="WebControls\SectionCollection.cs" />
+    <Compile Include="WebControls\SectionDataSource.cs" />
+    <Compile Include="WebControls\SectionDataSourceView.cs" />
+    <Compile Include="WebControls\SectionHierarchyData.cs" />
+    <Compile Include="WebControls\Design.cs" />
+    <Compile Include="Publication.cs" />
+    <Compile Include="WebControls\WebParts\Common\PublishableContentModule.cs" />
+    <Compile Include="WebControls\WebParts\PublishableContentModuleWebPart.cs" />
+    <Compile Include="WebControls\WebParts\FileBasedPersonalizationProvider.cs" />
+    <Compile Include="WebControls\WebParts\ModulesCatalogPart.cs" />
+    <Compile Include="WebControls\WebParts\Common\FooterModule.cs" />
+    <Compile Include="WebControls\WebParts\Common\HeaderModule.cs" />
+    <Compile Include="WebControls\WebParts\Common\HtmlContentModule.cs" />
+    <Compile Include="WebControls\HtmlEditor.cs" />
+    <Compile Include="WebControls\PageLayout.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebControls\WebParts\ModuleEditorPart.cs" />
+    <Compile Include="WebControls\WebParts\ModulesWebPartFinder.cs" />
+    <Compile Include="WebControls\WebParts\ModuleWebPart.cs" />
+    <Compile Include="WebControls\WebParts\Common\NavigationModule.cs" />
+    <Compile Include="WebControls\WebParts\PersistableModuleWebPart.cs" />
+    <Compile Include="WebControls\WebParts\PersonalizationProvider.cs" />
+    <Compile Include="WebControls\WebParts\PersonalizationProviderHelper.cs" />
+    <Compile Include="WebControls\WebParts\SecUtility.cs" />
+    <Compile Include="WebControls\WebParts\StringUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Providers\PagesInRoles.dbml.layout">
+      <DependentUpon>PagesInRoles.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Resources\ContentManager.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ContentManager.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\WebControls.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WebControls.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\WebParts.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WebParts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebControls\ContextMenu.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ContentManager.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Providers\PagesInRoles.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>PagesInRoles.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CodeFactory.DataAccess.Transactions\CodeFactory.DataAccess.Transactions.csproj">
+      <Project>{2CF270E6-DBFB-41E2-AAEB-61C0F08B147A}</Project>
+      <Name>CodeFactory.DataAccess.Transactions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.DataAccess\CodeFactory.DataAccess.csproj">
+      <Project>{C3427CCF-9FEB-40E4-8AF1-510506ACC38F}</Project>
+      <Name>CodeFactory.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Utilities\CodeFactory.Utilities.csproj">
+      <Project>{AB5ED03D-F6D5-4272-9A73-9FD5877917CF}</Project>
+      <Name>CodeFactory.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CodeFactory.Web\CodeFactory.Web.csproj">
+      <Project>{255A21C3-33D9-4DB0-BE1F-278C689A165D}</Project>
+      <Name>CodeFactory.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HttpHandlers\" />
+    <Folder Include="WebControls\WebParts\Login\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>CodeFactory</Author>
+  <LastAuthor>CodeFactory</LastAuthor>
+  <Created>2009-06-04T18:11:49Z</Created>
+  <Version>11.9999</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8190</WindowHeight>
+  <WindowWidth>9435</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Font ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#666699" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#808080" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#333399" ss:Bold="1"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#333399" ss:Bold="1"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#333399" ss:Bold="1"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#0000FF"/>
+   </Borders>
+   <Font ss:Size="8" ss:Color="#808080"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Reporte">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultRowHeight="11.25">
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="67.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="5" ss:StyleID="s23"><Data ss:Type="String">Reporte de Consultas</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Fecha inicio</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">23/03/1976</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s24"><Data ss:Type="String">Fecha fin</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">23/03/1976</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Fecha</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s27"><Data ss:Type="String">Título</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Usuario</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Tipo</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Ocasiones</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">23/03/1976</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s33"><Data ss:Type="String">Bienvenida</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">hmv_eb</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">Wiki</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s36"><Data ss:Type="String">23/03/1976</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s38"><Data ss:Type="String">Bienvenida</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">hmv_eb</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Wiki</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">99</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">23/03/1976</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s43"><Data ss:Type="String">Bienvenida</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">hmv_eb</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Wiki</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s47"><Data ss:Type="String">23/03/1976</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="String">Bienvenida</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">hmv_eb</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">Wiki</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="Number">101</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C6</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

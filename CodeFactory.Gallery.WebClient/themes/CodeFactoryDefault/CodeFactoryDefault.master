@@ -1,0 +1,40 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CodeFactoryDefault.master.cs" Inherits="CodeFactoryDefault" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>CodeFactory</title>
+    <link href="CodeFactoryDefault.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="header" style="height: 90px; width: 991px;">
+            <div id="header_logo" style="width: 577px;"><asp:Image ID="LogoImage" runat="server" ImageUrl="~/images/logoCodeFactory.jpg" /></div>
+            <div id="header_login_status">
+                Bienvenido&nbsp;<asp:LoginName ID="LoginName" runat="server" />&nbsp;&nbsp;|&nbsp;&nbsp;<asp:LoginStatus ID="LoginStatus" runat="server" CssClass="logout"/>
+            </div>
+        </div>
+        <div class="separator_black">&nbsp;</div>
+        <div id="box" style="width: 971px;">
+            <table border="0" cellpadding="0" cellspacing="0" style="width: 971px;">
+                <tr>
+                    <td><asp:Image ID="BoxTopImage" runat="server" ImageUrl="~/images/topCaja.jpg" Width="971px"/></td>
+                </tr>
+                <tr>
+                    <td id="box_main"><asp:ContentPlaceHolder ID="Main" runat="server"></asp:ContentPlaceHolder></td>
+                </tr>
+                <tr>
+                    <td><asp:Image ID="BoxBottomImage" runat="server" ImageUrl="~/images/bottomCaja.jpg" Width="971px"/></td>
+                </tr>
+            </table>
+        </div>        
+        <div class="separator_black">&nbsp;</div>
+        <div id="footer" style="height: 18px; width: 991px;">
+            <asp:Image ID="LegalImage" runat="server" ImageUrl="~/images/legal.jpg" CssClass="legalImage"/>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

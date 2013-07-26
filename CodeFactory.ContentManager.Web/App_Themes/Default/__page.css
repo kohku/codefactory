@@ -1,0 +1,169 @@
+﻿#__page_main
+{
+    display: block;
+    float: none;
+    clear: both;
+    width: 990px;
+}
+
+#__page_main #__content
+{
+    display: block;
+    float: none;
+    clear: both;
+    width: 990px;
+}
+
+#__page_main #__toolbar
+{
+    display: block;
+    float: none;
+    clear: both;
+    width: 990px;
+}
+
+#__page_main #__toolbar #__ShowButton
+{
+    display: none;
+    visibility: hidden;
+}
+
+#__content_panel
+{
+    display: block;
+    float: none;
+    clear: both;
+    width: 735px;
+    border: solid 3px #dddddd;
+    background-color: #ffffff;
+}
+
+#__content_panel #__content_title
+{
+    display: block;
+    float: left;
+    padding-left: 3px;
+    width: 732px;
+    color: #ffffff;
+    background-color: #dddddd;
+    font-weight: bold;
+    cursor: move;
+}
+
+#__content_panel #__editor_update_panel
+{
+    display: block;
+    float: none;
+    clear: both;
+}
+
+#__content_panel #__content_editor
+{
+    display: block;
+    float: none;
+    clear: both;
+}
+
+#__content_panel #__content_actions
+{
+    display: block;
+    float: left;
+    padding-top: 5px;
+    padding-left: 3px;
+    height: 26px;
+    width: 130px;
+    background-color: #ffffff;
+}
+
+#__content_panel #__content_progress
+{
+    display: block;
+    float: left;
+    padding-top: 7px;
+    height: 26px;
+    width: 30px;
+    background-color: #ffffff;
+}
+
+#__content_panel #__content_actions #__AcceptButton
+{
+    display: none;
+    visibility: hidden;
+}
+
+.__modal_editor
+{
+    background-color: #000000;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+/* default theme */
+.custom_html_editor
+{
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    overflow: auto;
+    background-color: #ffffff;
+    font-family: verdana,sans-serif;
+    font-size: 10pt;
+    color: #000000;
+}
+
+.custom_editor .ajax__htmleditor_editor_container
+{
+    border: 1px solid #C2C2C2;
+}
+
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_toptoolbar
+{
+    background-color: #F0F0F0;
+    padding: 0px 2px 2px 2px;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_toptoolbar .ajax__htmleditor_toolbar_button
+{
+    background-color: #C2C2C2;
+    margin: 2px 0px 0px 0px;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_toptoolbar .ajax__htmleditor_toolbar_button_hover
+{
+    background-color: #3C8AFF;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_toptoolbar div.ajax__htmleditor_toolbar_button span.ajax__htmleditor_toolbar_selectlable
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_toptoolbar div.ajax__htmleditor_toolbar_button select.ajax__htmleditor_toolbar_selectbutton
+{
+    font-size: 12px;
+    font-family: arial;
+    cursor: pointer;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_toptoolbar div.ajax__htmleditor_toolbar_button select.ajax__htmleditor_toolbar_selectbutton option
+{
+    font-size: 12px;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_editpanel
+{
+    border-width: 0px;
+    border-top: 1px solid #C2C2C2;
+    border-bottom: 1px solid #C2C2C2;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_bottomtoolbar
+{
+    background-color: #F0F0F0;
+    padding: 0px 0px 2px 2px;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_bottomtoolbar .ajax__htmleditor_toolbar_button
+{
+    background-color: #C2C2C2;
+    margin: 0px 4px 0px 0px;
+}
+.custom_editor .ajax__htmleditor_editor_container .ajax__htmleditor_editor_bottomtoolbar .ajax__htmleditor_toolbar_button_hover
+{
+    background-color: #3C8AFF;
+}
+

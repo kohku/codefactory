@@ -1,0 +1,49 @@
+<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<asp:WebPartZone SkinID="Publishable" runat="server" 
+    BorderColor="Silver" 
+    BorderStyle="Dashed"
+    DragHighlightColor="SandyBrown"
+    Font-Names="Arial"
+    Font-Size="8pt"
+    ForeColor="DimGray"
+    PartChromeType="None">
+    <MenuVerbStyle Font-Names="Arial" Font-Size="8pt" ForeColor="#5F5F5F" />
+    <MenuVerbHoverStyle Font-Names="Arial" Font-Size="8pt" ForeColor="#5F5F5F" BackColor="#b7d3fc" />
+    <MenuPopupStyle Width="125px" BorderColor="#A8BFEC" BorderStyle="Solid" BorderWidth="1px" CellPadding="0" />
+    <MenuLabelStyle Font-Strikeout="False" />
+    <RestoreVerb ImageUrl="~/images/MinimizeCtxMenu.png" />
+    <CloseVerb ImageUrl="~/images/CloseCtxMenu.png" />
+    <DeleteVerb ImageUrl="~/images/DeleteCtxMenu.png" />
+    <EditVerb ImageUrl="~/images/EditCtxMenu.png" />
+    <MinimizeVerb ImageUrl="~/images/MinimizeCtxMenu.png" />
+    <PartChromeStyle BorderColor="LightGray" BorderStyle="Solid" BorderWidth="1px" />
+</asp:WebPartZone>
+<asp:DropDownList SkinID="DropDownList_Standard" runat="server" CssClass="DropDownList_Standard"></asp:DropDownList>
+<asp:Label SkinID="Label_Standard" runat="server" CssClass="Label_Standard"></asp:Label>
+<asp:TextBox SkinID="TextBox_Standard" runat="server" CssClass="TextBox_Standard"></asp:TextBox>
+<asp:CheckBox SkinID="CheckBox_Standard" runat="server" CssClass="CheckBox_Standard"></asp:CheckBox>
+<asp:Button SkinID="Button_Standard" runat="server" CssClass="buttons_blue" />
+<asp:DropDownList SkinID="DropDownList_Small" runat="server" CssClass="DropDownList_Small"></asp:DropDownList>
+<asp:Label SkinID="Label_Small" runat="server" CssClass="Label_Small"></asp:Label>
+<asp:TextBox SkinID="TextBox_Small" runat="server" CssClass="TextBox_Small"></asp:TextBox>
+<asp:CheckBox SkinID="CheckBox_Small" runat="server" CssClass="CheckBox_Small"></asp:CheckBox>
+<asp:Button SkinID="Button_Small" runat="server" CssClass="Button_Small" />
+<asp:FileUpload SkinID="FileUpload_Standard" runat="server" CssClass="TextBox_Standard"/>
+<asp:ListBox SkinID="ListBox_Standard" runat="server" CssClass="TextBox_Standard"/>
+
+

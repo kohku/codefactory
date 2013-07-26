@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="Wiki" EntityNamespace="CodeFactory.Wiki.Providers" ContextNamespace="CodeFactory.Wiki.Providers" Class="WikiDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=C:\Dan\Development\CodeFactory\v3.5\CodeFactory.Wiki.WebClient\App_Data\Wiki.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="CodeFactory.Wiki.Properties.Settings" SettingsPropertyName="WikiConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Wikis" Member="LinqWikis">
+    <Type Name="LinqWiki">
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="title" Member="Title" Storage="_title" Type="System.String" DbType="VarChar(256) NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="description" Member="Description" Storage="_description" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="content" Member="Content" Storage="_content" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="author" Member="Author" Storage="_author" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="isVisible" Member="IsVisible" Storage="_isVisible" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="slug" Member="Slug" Storage="_slug" Type="System.String" DbType="VarChar(128)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="category" Member="Category" Storage="_category" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="keywords" Member="Keywords" Storage="_keywords" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="dateCreated" Member="DateCreated" Storage="_dateCreated" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime NOT NULL" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="lastUpdated" Member="LastUpdated" Storage="_lastUpdated" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="lastUpdatedBy" Member="LastUpdatedBy" Storage="_lastUpdatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="reachLevel" Member="ReachLevel" Storage="_reachLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="editable" Member="Editable" Storage="_editable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="editor" Member="Editor" Storage="_editor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="departmentArea" Member="DepartmentArea" Storage="_departmentArea" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="applicationName" Member="ApplicationName" Storage="_applicationName" Type="System.String" DbType="VarChar(512) NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WikisHistory" Member="LinqWikiHistories">
+    <Type Name="LinqWikiHistory">
+      <Column Name="trackingNumber" Member="TrackingNumber" Storage="_trackingNumber" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="title" Member="Title" Storage="_title" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="description" Member="Description" Storage="_description" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="content" Member="Content" Storage="_content" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="author" Member="Author" Storage="_author" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="isVisible" Member="IsVisible" Storage="_isVisible" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="slug" Member="Slug" Storage="_slug" Type="System.String" DbType="VarChar(128)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="category" Member="Category" Storage="_category" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="keywords" Member="Keywords" Storage="_keywords" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="dateCreated" Member="DateCreated" Storage="_dateCreated" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime NOT NULL" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="lastUpdated" Member="LastUpdated" Storage="_lastUpdated" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="expirationDate" Member="ExpirationDate" Storage="_expirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="lastUpdatedBy" Member="LastUpdatedBy" Storage="_lastUpdatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="reachLevel" Member="ReachLevel" Storage="_reachLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="editable" Member="Editable" Storage="_editable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="editor" Member="Editor" Storage="_editor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="departmentArea" Member="DepartmentArea" Storage="_departmentArea" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="status" Member="Status" Storage="_status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="messages" Member="Messages" Storage="_messages" Type="System.String" DbType="VarChar(512)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="authorizer" Member="Authorizer" Storage="_authorizer" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="action" Member="Action" Storage="_action" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="ipAddress" Member="IpAddress" Storage="_ipAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="applicationName" Member="ApplicationName" Storage="_applicationName" Type="System.String" DbType="VarChar(512)" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WorkWikiItems" Member="LinqWorkWikiItems">
+    <Type Name="LinqWorkWikiItem">
+      <Column Name="trackingNumber" Member="TrackingNumber" Storage="_trackingNumber" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="id" Member="ID" Storage="_id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="title" Member="Title" Storage="_title" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="description" Member="Description" Storage="_description" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="content" Member="Content" Storage="_content" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="author" Member="Author" Storage="_author" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="isVisible" Member="IsVisible" Storage="_isVisible" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="slug" Member="Slug" Storage="_slug" Type="System.String" DbType="VarChar(128)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="category" Member="Category" Storage="_category" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="keywords" Member="Keywords" Storage="_keywords" Type="System.String" DbType="VarChar(1024)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="dateCreated" Member="DateCreated" Storage="_dateCreated" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime NOT NULL" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="lastUpdated" Member="LastUpdated" Storage="_lastUpdated" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Always" IsVersion="true" />
+      <Column Name="expirationDate" Member="ExpirationDate" Storage="_expirationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="lastUpdatedBy" Member="LastUpdatedBy" Storage="_lastUpdatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="reachLevel" Member="ReachLevel" Storage="_reachLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="editable" Member="Editable" Storage="_editable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="editor" Member="Editor" Storage="_editor" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="departmentArea" Member="DepartmentArea" Storage="_departmentArea" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="status" Member="Status" Storage="_status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="messages" Member="Messages" Storage="_messages" Type="System.String" DbType="VarChar(512)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="authorizer" Member="Authorizer" Storage="_authorizer" Type="System.String" DbType="VarChar(50)" CanBeNull="true" UpdateCheck="Always" />
+      <Column Name="action" Member="Action" Storage="_action" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="ipAddress" Member="IpAddress" Storage="_ipAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" UpdateCheck="Always" />
+      <Column Name="applicationName" Member="ApplicationName" Storage="_applicationName" Type="System.String" DbType="VarChar(512)" CanBeNull="true" UpdateCheck="Always" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WikiCategories" Member="WikiCategories">
+    <Type Name="WikiCategory">
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ApplicationName" Type="System.String" DbType="VarChar(512) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.WikiAuthorizers" Member="WikiAuthorizers">
+    <Type Name="WikiAuthorizer">
+      <Column Name="Category" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="applicationName" Member="ApplicationName" Storage="_applicationName" Type="System.String" DbType="VarChar(512)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.GetRandomWiki" Method="GetRandomWiki">
+    <Parameter Name="applicationName" Type="System.String" DbType="VarChar(512)" />
+    <ElementType Name="GetRandomWikiResult">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetRelatedWiki" Method="GetRelatedWiki">
+    <Parameter Name="applicationName" Type="System.String" DbType="VarChar(512)" />
+    <Parameter Name="keyword" Type="System.String" DbType="VarChar(512)" />
+    <ElementType Name="GetRelatedWikiResult">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

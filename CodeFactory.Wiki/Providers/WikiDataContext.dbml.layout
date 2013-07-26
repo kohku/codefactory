@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.25" name="WikiClasses">
+  <DataContextMoniker Name="/WikiDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2861f997-e174-4ade-8751-1647fd888cbd" absoluteBounds="0.5, 0.5, 2, 3.5613631184895826">
+      <DataClassMoniker Name="/WikiDataContext/LinqWiki" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f56fb47f-ba79-454f-abb3-1daeafc76cbb" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 3.001363118489583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2266294c-c6a0-41ad-a1ba-4d47369d503a" absoluteBounds="0.5, 4.25, 2, 4.71179443359375">
+      <DataClassMoniker Name="/WikiDataContext/LinqWikiHistory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0077fa35-e2c2-468e-8c1d-067437a41ea6" absoluteBounds="0.51500000000000012, 4.71, 1.9700000000000002, 4.15179443359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d3e18e67-0d7d-4d91-802c-41355d605b86" absoluteBounds="2.75, 4.25, 2, 4.71179443359375">
+      <DataClassMoniker Name="/WikiDataContext/LinqWorkWikiItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35b2318f-8ced-4675-8d6e-87ac5881a1f9" absoluteBounds="2.765, 4.71, 1.9700000000000002, 4.15179443359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b1cddf5b-8e0a-4cd7-8e5a-aeb9f9fa84b8" absoluteBounds="2.75, 0.5, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/WikiDataContext/WikiCategory" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ec7a3e1-e813-4cec-b8ec-2a84f3f80098" absoluteBounds="2.7650000000000006, 0.96, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="168743fb-7bec-4a22-bf1b-8fb245c33aaf" absoluteBounds="5, 4.25, 2, 1.26050048828125">
+      <DataClassMoniker Name="/WikiDataContext/WikiAuthorizer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="721ba139-3bc7-40dc-8241-29b5a388cb92" absoluteBounds="5.015, 4.71, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
